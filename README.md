@@ -2,7 +2,6 @@
 Attaining Tweets of any hashtag and grouping them together using Clustering.
 
 # Overview
-This is the full code for 'CPG Sales Forecasting'. This code helps to identify current sales and predict the forecast for the rest of the year with the current sales numbers. It also identifies the GAP between Actual Sales+forecast versus the initial yearly plan. It identifies the market share in the retailers, products and regions perspective.
 This code performs Text Mining on any trending hashtag. The data is then pre-processed by removing stop words, links and numbers. Then, the frequently used words are found. The code finally visualizes the frequent words in total and in groups, and presents it in a front-end HTML view.
 
 # Dependencies
@@ -15,20 +14,20 @@ This code performs Text Mining on any trending hashtag. The data is then pre-pro
 * flask
   
 # Results
-* <h4>Retailer Forecast</h4>
-![retailer_total](https://user-images.githubusercontent.com/20180559/48884401-67b97c80-ee4a-11e8-93b0-ce6ddb0cdd51.png)
+* <h4>WordCloud of all words</h4>
+![twitter_word_cloud](https://user-images.githubusercontent.com/20180559/55277132-e061a580-5322-11e9-9990-a64bc80278d4.png)
 
-* <h4>PlanVsActual</h4>
-![retailerplanvsactual](https://user-images.githubusercontent.com/20180559/48884424-81f35a80-ee4a-11e8-9056-b1632c414c7c.png)
+* <h4>Group 1</h4>
+![Group 1](https://user-images.githubusercontent.com/20180559/55277133-e6f01d00-5322-11e9-9165-a87bd9f7c4df.png)
 
-* <h4>Product Category</h4>
-![category_bar](https://user-images.githubusercontent.com/20180559/48884458-a2231980-ee4a-11e8-9642-0ff7275cad0d.png)
+* <h4>Group 2</h4>
+![Group 2](https://user-images.githubusercontent.com/20180559/55277135-e8214a00-5322-11e9-90e3-61d35c4d273c.png)
 
-* <h4>Retailer Region</h4>
-![region_bar](https://user-images.githubusercontent.com/20180559/48884492-bd8e2480-ee4a-11e8-8451-4d65fd079ffb.png)
+* <h4>Group 3</h4>
+![Group 3](https://user-images.githubusercontent.com/20180559/55277136-e9527700-5322-11e9-8023-0cf43249120b.png)
 
-* <h4>Retailers</h4>
-![retailer_bar](https://user-images.githubusercontent.com/20180559/48884518-d4cd1200-ee4a-11e8-9dcd-54bbf9fef26d.png)
+* <h4>TSNE Graph</h4>
+![TSNE](https://user-images.githubusercontent.com/20180559/55277137-ebb4d100-5322-11e9-86bc-d7f10e9e75a3.png)
 
-* <h4>Products</h4>
-![upc_bar](https://user-images.githubusercontent.com/20180559/48884532-eca49600-ee4a-11e8-8658-78e093b0fbe3.png)
+* <h4>PCA Graph</h4>
+![PCA](https://user-images.githubusercontent.com/20180559/55277139-ed7e9480-5322-11e9-9a7f-b5de4822b88f.png)
