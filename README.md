@@ -14,6 +14,9 @@ This code performs Text Mining on any trending hashtag. The data is then pre-pro
 * flask
   
 # Results
+* <h4>HTML View</h4>
+<img width="371" alt="front_end" src="https://user-images.githubusercontent.com/20180559/55277197-67168280-5323-11e9-83e3-d4c7c43d1e92.png">
+
 * <h4>WordCloud of all words</h4>
 ![twitter_word_cloud](https://user-images.githubusercontent.com/20180559/55277132-e061a580-5322-11e9-9990-a64bc80278d4.png)
 
