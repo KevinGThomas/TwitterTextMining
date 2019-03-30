@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./static/home.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" ></script>
+        <style >
+        	button[type=submit]:enabled {
+    		background: #4278B4;
+    		font-color:#fff;
+		}
+
+			button[type=submit]:disabled {
+    		background: #E0E0E0;
+    		font-color:#fff;
+		}
+        </style>
+        <script>
+   
+
+		function myFunction() {
+		    var d = new Date();
+		    var n = d.getDate();
+		    document.getElementById("demo").innerHTML = n;
+		}
+		function verify()
+		{
+			if(document.getElementById("search").value!==null && if(document.getElementById("sd").value!==null) && if(document.getElementById("ed").value!==null) && if(document.getElementById("ed")!==null) && if(document.getElementById("m")!==null))
+			{
+				document.getElementById("sub").disabled=false;								
+			}
+		}
+		
+    </script>
+    <title>twitter sentiment</title>
+  </head>
+  <body>
+    
+      <div class="bg-box">
+          <br><p align="center">
+          <h1>Twitter mining</h1>
+
+          
+          <img src="./static/Line.png" align="left" >
+          <br>
+          <form action="/search" method="post" id="f" name="theform" >
+
+            <img src="./static/logo.png" align="center" position= relative>
+
+          	<br></p>
+            <p>search query:</p>
+            <p><input type="text" align="left" name="search" id="search" oninput="verify()" style="color: black;" required></p>
+            
+            <datalist>
+            <options id "demo"></options>
+            </datalist>
+            </span>
+            
+
+            <br>
+            <p>Maximum tweets to be analysed:</p>
+            
+            <p><input type="number" min="0" max="1000" name="m" id="m" oninput="verify()" required style="color: black;"></p>
+            <br>
+            
+
+            <button type="submit" id="sub" text-color="white">SUBMIT</button>
+          </form>
+    </div>
+  </body>
+
+</html>

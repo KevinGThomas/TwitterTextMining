@@ -1,0 +1,122 @@
+body{
+	background: #FFFFFF;
+	display: flex;
+	height:100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+
+}
+
+
+
+
+.bg-box {
+	height: 685px;
+	width: 600px;
+	border: 1px solid #E6E6E6;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 50px 0 rgba(0,0,0,0.15);
+	margin: 20px;
+}
+ 
+.bg-box h1 {
+	position: relative;
+	left: 80px;
+	padding-left: 24px;
+	height: 28px;
+	width: 289px;
+	color: #4278B4;
+	font-family: Roboto;
+
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.bg-box  input {
+	height: 31px;	
+	width: 412px;
+	
+	border:0;
+
+	outline: 0;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	color:;
+	align-self: left;
+	background: transparent;
+	
+	/*box-shadow: 0 0 50px 0 rgba(0,0,0,0.15);*/
+
+
+	border-bottom: 2px solid #C7C7C7;
+
+}
+.bg-box img {
+	left: 100px;
+	position: relative;
+	
+	
+	
+}
+
+.bg-box p{
+	opacity: 0.5;
+	padding-left: 100px;
+	text-align: left;
+	font-family: Roboto;
+
+
+}
+
+.bg-box button {
+	
+	height: 48px;
+	width: 412px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #E0E0E0;
+	color:#FFFFFF;
+	box-shadow: none;
+	border: none;
+	left: 100px;
+	position: relative;
+	
+}
+
+}
+.bg-box h4{
+
+	height: 31px;	
+	width: 412px;
+	border-bottom: 1px solid black;
+	border:0;
+	outline: 0;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	background: transparent;
+	font-style: bold;
+	box-shadow: 0 0 50px 0 rgba(0,0,0,0.15);
+	text-align: center;
+	
+
+}
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.chartContainer
+{
+	position: relative;
+	align-items: center;
+}
+
+
+
+
+
